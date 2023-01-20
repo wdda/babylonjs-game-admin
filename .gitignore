@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 public/game/resources/graphics/levels/level_1/map.babylon
+public/game/resources/graphics/levels/level_1/map.babylon.manifest
 public/game/resources/graphics/textures/environment.env
 public/game/resources/graphics/characters/player.glb
 /storage/*.key
