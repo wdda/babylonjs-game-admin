@@ -23,7 +23,7 @@ class UploadResourcesController extends Controller
         }
 
         $this->uploadFile($request, 'map', $pathGraphics . 'levels/level_1', 'map.babylon');
-        $this->uploadFile($request, 'character', $pathGraphics . 'characters', 'Girl.glb');
+        $this->uploadFile($request, 'character', $pathGraphics . 'characters', 'player.glb');
         $this->uploadFile($request, 'environment', $pathGraphics .'textures', 'environment.env');
 
         return redirect(route('dashboard'))->with('message', 'Resources uploaded');
