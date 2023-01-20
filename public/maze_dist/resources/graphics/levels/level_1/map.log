@@ -1,0 +1,2011 @@
+Exporter version: 2.93.5, Blender version: 2.93.8
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  true
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+			processing texture C004_6000
+				WARNING: Exception during copy:
+					[Errno 2] No such file or directory: '/Users/dmitryalferof/PhpstormProjects/maze/src/blender/babylon/C004_6000.hdr'
+	Python World class constructor completed
+	processing begun of mesh:  FLOR_CENTR_COL
+		processing begun of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.002
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.004
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.006
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.008
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.009
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.010
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.011
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.012
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.014
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.015
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.016
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.017
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.018
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.019
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.020
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.021
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.022
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.023
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.024
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.025
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.026
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.027
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.028
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.029
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.030
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COLL
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.031
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.032
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.033
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.034
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.035
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.036
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COLL.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.037
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.038
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.039
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.040
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.041
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COLL.002
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.042
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.043
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.044
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.045
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.046
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.047
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.048
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.049
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.050
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.051
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.052
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.053
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.054
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.055
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.056
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.057
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.058
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.059
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.060
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.061
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.003
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.007
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  120
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.013
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.066
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.067
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.068
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_COL.070
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  TRUMP_COL.002
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  TRUMP_COL
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  124
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  TRUMP_COL.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  BUTTON KEY_COL
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  249
+		num normals        :  249
+		num tangents       :  996
+		num uvs            :  498
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  94
+	processing begun of mesh:  SPUSK_COL.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SPUSK_COL.004
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		Custom split normals with tangents being used
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  128
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  player
+		processing begun of material:  PLAYER
+		Custom split normals with tangents being used
+		num positions      :  221
+		num normals        :  221
+		num tangents       :  884
+		num uvs            :  442
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  264
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  KEY_DETECTED.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  KEY_BUTTON_LIGHT_DETECTED.001
+		processing begun of material:  FUNCTION
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  KEY_BUTTON_DETECTED.001
+		processing begun of material:  colision
+		registered as also a user of material:  colision
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  CHARGING_DETECTED.001
+		processing begun of material:  FUNCTION
+		registered as also a user of material:  FUNCTION
+		Custom split normals with tangents being used
+		num positions      :  154
+		num normals        :  154
+		num tangents       :  616
+		num uvs            :  308
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  94
+	processing begun of mesh:  DOOR_DETECTED.001
+		processing begun of material:  FUNCTION
+		registered as also a user of material:  FUNCTION
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  DOOR_DETECTED.002
+		processing begun of material:  FUNCTION
+		registered as also a user of material:  FUNCTION
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  WALL_osnova.043
+		processing begun of material:  WALL BASE
+		Custom split normals with tangents being used
+		num positions      :  1865
+		num normals        :  1865
+		num tangents       :  7460
+		num uvs            :  3730
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  720
+	processing begun of mesh:  WALL_1.005
+		processing begun of material:  WALL BASE
+		registered as also a user of material:  WALL BASE
+		Custom split normals with tangents being used
+		num positions      :  156
+		num normals        :  156
+		num tangents       :  624
+		num uvs            :  312
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  WALL_1.010
+		processing begun of material:  MODUL1 WHITE
+		processing begun of material:  MODUL1 GREY
+		processing begun of material:  RED MODUL 1
+		processing begun of multimaterial:  map.Multimaterial#0
+		Custom split normals with tangents being used
+		num positions      :  290
+		num normals        :  290
+		num tangents       :  1160
+		num uvs            :  580
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  154
+	processing begun of mesh:  WALL_1.001
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.029
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.038
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.002
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.012
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.013
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.014
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.015
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.017
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.019
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.020
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.021
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.022
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.023
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.024
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.025
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.027
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.028
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.030
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.031
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.033
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.034
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.035
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.036
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.037
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.039
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.041
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.042
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.043
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.044
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.045
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.046
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.047
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.048
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.049
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.050
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.051
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.052
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.053
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.054
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.055
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.056
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.057
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.058
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.059
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.060
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.061
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.062
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.063
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.064
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.065
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.066
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.067
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.068
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.069
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.070
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.072
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.073
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.074
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.075
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.076
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.077
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.078
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.079
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.080
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.081
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.082
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.083
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.084
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.085
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.086
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.087
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.088
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.089
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.090
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.091
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.092
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.093
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.094
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.095
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.096
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.097
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.098
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.099
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.100
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.101
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.103
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.106
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.107
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.108
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.111
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.109
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.110
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.112
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.113
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.114
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.115
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.116
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.117
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.118
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.119
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.120
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.121
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.122
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.123
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.124
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.125
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.126
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.127
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.128
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.129
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.130
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.131
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.132
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.133
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.134
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.135
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.136
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.137
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.138
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.139
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.140
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.141
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.143
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.145
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.144
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.146
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.147
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.148
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.149
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.150
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.151
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.152
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.153
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.154
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.155
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.156
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.157
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.158
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.159
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.160
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.161
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.162
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.163
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.164
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.165
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.166
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.167
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.168
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.169
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.170
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.171
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.172
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.173
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.174
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.175
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.176
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.177
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.178
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.179
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.180
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.181
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.182
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.183
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.184
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.185
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.186
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.188
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.189
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.190
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.191
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.192
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.194
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.195
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.196
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.197
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.198
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.142
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.199
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.200
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.201
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.202
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.203
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.204
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.205
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.206
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.208
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.209
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.207
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.211
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.212
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.213
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.214
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.217
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.219
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.220
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.227
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.228
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.104
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.229
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.105
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.230
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.231
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.232
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.233
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.234
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.235
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.236
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.237
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.238
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.239
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.240
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.241
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.242
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.243
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.244
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.216
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.218
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.245
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.246
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.247
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.248
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.249
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.250
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.251
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.252
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.253
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.254
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.255
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.256
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.257
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.258
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.259
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.260
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.261
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.262
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.263
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.264
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.266
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.267
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.268
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.269
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.270
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.271
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.272
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.273
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.274
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.275
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.276
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.277
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.282
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.283
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.284
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.285
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.286
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.287
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.289
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.290
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.296
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.297
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.298
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.299
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.300
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.301
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.302
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.303
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.304
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.305
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.306
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.307
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.308
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.309
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.310
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.311
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.003
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL_1.004
+		mesh is an instance of :  WALL_1.010.  Processing halted.
+	processing begun of mesh:  WALL 2
+		processing begun of material:  WALL 2 grey
+		processing begun of material:  WALL 2 white
+		processing begun of material:  BLACK
+		processing begun of material:  WALL 2 RED
+		processing begun of material:  BRIDGE LIGHT
+		processing begun of material:  WALL 2 MONITOR
+			processing texture WALL_2
+				texture type:  diffuseTexture, mapped using: "WALL 2"
+			processing texture WALL_2
+				texture type:  diffuseTexture, mapped using: "WALL 2"
+			processing texture WALL_2
+				texture type:  diffuseTexture, mapped using: "WALL 2"
+			processing texture SCHEME5
+				texture type:  emissiveTexture, mapped using: "WALL 2 monitor"
+		processing begun of multimaterial:  map.Multimaterial#1
+		Custom split normals with tangents being used
+		num positions      :  1177
+		num normals        :  1177
+		num tangents       :  4708
+		num uvs            :  2354
+		num uvs2           :  2354
+		num colors         :  0
+		num triangles      :  666
+	processing begun of mesh:  WALL_1.040
+		mesh is an instance of :  WALL 2.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL
+		processing begun of material:  WALL 3 SMALL W
+		processing begun of material:  WALL 3 SMALL G
+		processing begun of material:  WALL 3 SMALL RED
+		processing begun of multimaterial:  map.Multimaterial#2
+		Custom split normals with tangents being used
+		num positions      :  289
+		num normals        :  289
+		num tangents       :  1156
+		num uvs            :  578
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  154
+	processing begun of mesh:  WALL 3 SMALL.001
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.002
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.003
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.004
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.005
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.006
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.007
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.008
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.009
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.010
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.011
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.012
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.013
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.014
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.015
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.016
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.017
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.018
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.019
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.020
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.021
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL 3 SMALL.022
+		mesh is an instance of :  WALL 3 SMALL.  Processing halted.
+	processing begun of mesh:  WALL_1.018
+		processing begun of material:  WALL 4 SMALL
+		Custom split normals with tangents being used
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  152
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  WALL_1.026
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.006
+		processing begun of material:  WALL 4 SMALL
+		registered as also a user of material:  WALL 4 SMALL
+		Custom split normals with tangents being used
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  152
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  WALL_1.007
+		mesh is an instance of :  WALL_1.006.  Processing halted.
+	processing begun of mesh:  WALL_1.215
+		mesh is an instance of :  WALL_1.006.  Processing halted.
+	processing begun of mesh:  WALL_1.278
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.279
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.280
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.281
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.293
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.292
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.294
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL_1.295
+		mesh is an instance of :  WALL_1.018.  Processing halted.
+	processing begun of mesh:  WALL 5 MAYA
+		processing begun of material:  WALL MAYA WHITE
+		processing begun of material:  WALL MAYA GRAY
+		processing begun of material:  BLACK
+		processing begun of material:  red
+		processing begun of material:  BRIDGE LIGHT
+		processing begun of material:  WALL MAYA LIGHT GRAY
+		registered as also a user of material:  BLACK
+		registered as also a user of material:  BRIDGE LIGHT
+		processing begun of multimaterial:  map.Multimaterial#3
+		Custom split normals with tangents being used
+		num positions      :  982
+		num normals        :  982
+		num tangents       :  3928
+		num uvs            :  1964
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  372
+	processing begun of mesh:  WALL 5 MAYA.002
+		mesh is an instance of :  WALL 5 MAYA.  Processing halted.
+	processing begun of mesh:  MAYA 1
+		processing begun of material:  maya
+			processing texture maya1
+				texture type:  diffuseTexture, mapped using: "sector01"
+		Custom split normals with tangents being used
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  16
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  MAYA 2
+		processing begun of material:  maya 2
+			processing texture maya2
+				texture type:  diffuseTexture, mapped using: "sector01"
+		Custom split normals with tangents being used
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  16
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  MAYA 2.001
+		processing begun of material:  maya 2
+		registered as also a user of material:  maya 2
+		Custom split normals with tangents being used
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  16
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  WALL_1.265
+		processing begun of material:  WALL MAYA WHITE
+		processing begun of material:  WALL MAYA GRAY
+		registered as also a user of material:  WALL MAYA WHITE
+		registered as also a user of material:  WALL MAYA GRAY
+		processing begun of multimaterial:  map.Multimaterial#4
+		Custom split normals with tangents being used
+		num positions      :  52
+		num normals        :  52
+		num tangents       :  208
+		num uvs            :  104
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  WALL_1.288
+		mesh is an instance of :  WALL_1.265.  Processing halted.
+	processing begun of mesh:  WALL 5 MAYA.001
+		mesh is an instance of :  WALL 5 MAYA.  Processing halted.
+	processing begun of mesh:  WALL_1.008
+		processing begun of material:  ANGLE WALL WHITE
+		processing begun of material:  ANGLE WALL GREY
+		processing begun of material:  ANGLE WALL RED
+		processing begun of material:  ANGLE WALL  METALL
+		processing begun of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#5
+		Custom split normals with tangents being used
+		num positions      :  641
+		num normals        :  641
+		num tangents       :  2564
+		num uvs            :  1282
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  283
+	processing begun of mesh:  WALL_1.009
+		mesh is an instance of :  WALL_1.008.  Processing halted.
+	processing begun of mesh:  WALL_1.011
+		mesh is an instance of :  WALL_1.008.  Processing halted.
+	processing begun of mesh:  DOOR_CASTLE.001
+		animation processing begun
+			processing action DOOR.003Action.001:  in[0 - 35], out[0 - 35]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#6
+		Custom split normals with tangents being used
+		num positions      :  780
+		num normals        :  780
+		num tangents       :  3120
+		num uvs            :  1560
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  456
+	processing begun of mesh:  DOOR_LEFT.001
+		animation processing begun
+			processing action DOOR.010Action.002:  in[5 - 30], out[0 - 30]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  DOOR RED
+		processing begun of material:  DOOR BLACK
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  DOOR WH
+		registered as also a user of material:  DOOR GR
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#7
+		Custom split normals with tangents being used
+		num positions      :  1211
+		num normals        :  1211
+		num tangents       :  4844
+		num uvs            :  2422
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  598
+	processing begun of mesh:  DOOR_RIGHT.001
+		animation processing begun
+			processing action DOOR.009Action:  in[5 - 30], out[0 - 30]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  DOOR RED
+		processing begun of material:  DOOR BLACK
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  DOOR WH
+		registered as also a user of material:  DOOR GR
+		registered as also a user of material:  DOOR RED
+		registered as also a user of material:  DOOR BLACK
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#8
+		Custom split normals with tangents being used
+		num positions      :  1325
+		num normals        :  1325
+		num tangents       :  5300
+		num uvs            :  2650
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  636
+	processing begun of mesh:  DOOR_CASTLE.002
+		animation processing begun
+			processing action DOOR.003Action.003:  in[0 - 35], out[0 - 35]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  DOOR WH
+		registered as also a user of material:  DOOR GR
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#9
+		Custom split normals with tangents being used
+		num positions      :  780
+		num normals        :  780
+		num tangents       :  3120
+		num uvs            :  1560
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  456
+	processing begun of mesh:  DOOR_LEFT.002
+		animation processing begun
+			processing action DOOR.010Action.003:  in[0 - 30], out[0 - 30]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  DOOR RED
+		processing begun of material:  DOOR BLACK
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  DOOR WH
+		registered as also a user of material:  DOOR GR
+		registered as also a user of material:  DOOR RED
+		registered as also a user of material:  DOOR BLACK
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#10
+		Custom split normals with tangents being used
+		num positions      :  1211
+		num normals        :  1211
+		num tangents       :  4844
+		num uvs            :  2422
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  598
+	processing begun of mesh:  DOOR_RIGHT.002
+		animation processing begun
+			processing action DOOR.009Action.002:  in[0 - 30], out[0 - 30]
+		processing begun of material:  DOOR WH
+		processing begun of material:  DOOR GR
+		processing begun of material:  DOOR RED
+		processing begun of material:  DOOR BLACK
+		processing begun of material:  LIGHT LAMPS
+		registered as also a user of material:  DOOR WH
+		registered as also a user of material:  DOOR GR
+		registered as also a user of material:  DOOR RED
+		registered as also a user of material:  DOOR BLACK
+		registered as also a user of material:  LIGHT LAMPS
+		processing begun of multimaterial:  map.Multimaterial#11
+		Custom split normals with tangents being used
+		num positions      :  1325
+		num normals        :  1325
+		num tangents       :  5300
+		num uvs            :  2650
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  636
+	processing begun of mesh:  ARKA
+		processing begun of material:  ARKA WHITE
+		processing begun of material:  ARKA GREY
+		processing begun of material:  ARKA RED
+		processing begun of material:  ARKA BLACK
+		processing begun of material:  ARKA GLOW
+		processing begun of multimaterial:  map.Multimaterial#12
+		Custom split normals with tangents being used
+		num positions      :  3294
+		num normals        :  3294
+		num tangents       :  13176
+		num uvs            :  6588
+		num uvs2           :  6588
+		num colors         :  0
+		num triangles      :  1676
+	processing begun of mesh:  SECTOR.001
+		processing begun of material:  SECTOR.001
+			processing texture SECTOR_01
+				texture type:  diffuseTexture, mapped using: "arka"
+		Custom split normals with tangents being used
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  32
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ARKA.002
+		mesh is an instance of :  ARKA.  Processing halted.
+	processing begun of mesh:  SECTOR.002
+		mesh is an instance of :  SECTOR.001.  Processing halted.
+	processing begun of mesh:  ARKA.003
+		mesh is an instance of :  ARKA.  Processing halted.
+	processing begun of mesh:  SECTOR.003
+		mesh is an instance of :  SECTOR.001.  Processing halted.
+	processing begun of light (POINT):  Point.001
+	processing begun of light (POINT):  Point.012
+	processing begun of light (POINT):  Point.008
+	processing begun of light (POINT):  Point.014
+	processing begun of light (POINT):  Point.006
+	processing begun of light (POINT):  Point.020
+	processing begun of light (POINT):  Point.007
+	processing begun of light (POINT):  Point.027
+	processing begun of light (POINT):  Point.002
+	processing begun of light (POINT):  Point.005
+	processing begun of light (POINT):  Point.003
+	processing begun of light (POINT):  Point.004
+	processing begun of light (POINT):  Point.009
+	processing begun of light (POINT):  Point.010
+	processing begun of light (POINT):  Point.011
+	processing begun of light (POINT):  Point.013
+	processing begun of light (POINT):  Point.015
+	processing begun of light (POINT):  Point.016
+	processing begun of light (POINT):  Point.017
+	processing begun of light (POINT):  Point.018
+	processing begun of light (POINT):  Point.019
+	processing begun of light (POINT):  Point.021
+	processing begun of light (POINT):  Point.022
+	processing begun of light (POINT):  Point.023
+	processing begun of light (POINT):  Point.024
+	processing begun of light (POINT):  Point.025
+	processing begun of light (POINT):  Point.026
+	processing begun of light (POINT):  Point.028
+	processing begun of light (POINT):  Point.029
+	processing begun of light (POINT):  Point.030
+	processing begun of light (POINT):  Point.031
+	processing begun of light (POINT):  Point.032
+	processing begun of light (POINT):  Point.033
+========= Writing of JSON file started =========
+	writing mesh:  FLOR_CENTR_COL
+	writing mesh:  WALL_COL
+	writing mesh:  WALL_COL.001
+	writing mesh:  WALL_COL.002
+	writing mesh:  WALL_COL.004
+	writing mesh:  WALL_COL.006
+	writing mesh:  WALL_COL.008
+	writing mesh:  WALL_COL.009
+	writing mesh:  WALL_COL.010
+	writing mesh:  WALL_COL.011
+	writing mesh:  WALL_COL.012
+	writing mesh:  WALL_COL.014
+	writing mesh:  WALL_COL.015
+	writing mesh:  WALL_COL.016
+	writing mesh:  WALL_COL.017
+	writing mesh:  WALL_COL.018
+	writing mesh:  WALL_COL.019
+	writing mesh:  WALL_COL.020
+	writing mesh:  WALL_COL.021
+	writing mesh:  WALL_COL.022
+	writing mesh:  WALL_COL.023
+	writing mesh:  WALL_COL.024
+	writing mesh:  WALL_COL.025
+	writing mesh:  WALL_COL.026
+	writing mesh:  WALL_COL.027
+	writing mesh:  WALL_COL.028
+	writing mesh:  WALL_COL.029
+	writing mesh:  WALL_COL.030
+	writing mesh:  WALL_COLL
+	writing mesh:  WALL_COL.031
+	writing mesh:  WALL_COL.032
+	writing mesh:  WALL_COL.033
+	writing mesh:  WALL_COL.034
+	writing mesh:  WALL_COL.035
+	writing mesh:  WALL_COL.036
+	writing mesh:  WALL_COLL.001
+	writing mesh:  WALL_COL.037
+	writing mesh:  WALL_COL.038
+	writing mesh:  WALL_COL.039
+	writing mesh:  WALL_COL.040
+	writing mesh:  WALL_COL.041
+	writing mesh:  WALL_COLL.002
+	writing mesh:  WALL_COL.042
+	writing mesh:  WALL_COL.043
+	writing mesh:  WALL_COL.044
+	writing mesh:  WALL_COL.045
+	writing mesh:  WALL_COL.046
+	writing mesh:  WALL_COL.047
+	writing mesh:  WALL_COL.048
+	writing mesh:  WALL_COL.049
+	writing mesh:  WALL_COL.050
+	writing mesh:  WALL_COL.051
+	writing mesh:  WALL_COL.052
+	writing mesh:  WALL_COL.053
+	writing mesh:  WALL_COL.054
+	writing mesh:  WALL_COL.055
+	writing mesh:  WALL_COL.056
+	writing mesh:  WALL_COL.057
+	writing mesh:  WALL_COL.058
+	writing mesh:  WALL_COL.059
+	writing mesh:  WALL_COL.060
+	writing mesh:  WALL_COL.061
+	writing mesh:  WALL_COL.003
+	writing mesh:  WALL_COL.007
+	writing mesh:  WALL_COL.013
+	writing mesh:  WALL_COL.066
+	writing mesh:  WALL_COL.067
+	writing mesh:  WALL_COL.068
+	writing mesh:  WALL_COL.070
+	writing mesh:  TRUMP_COL.002
+	writing mesh:  TRUMP_COL
+	writing mesh:  TRUMP_COL.001
+	writing mesh:  BUTTON KEY_COL
+	writing mesh:  SPUSK_COL.001
+	writing mesh:  SPUSK_COL.004
+	writing mesh:  player
+	writing mesh:  KEY_DETECTED.001
+	writing mesh:  KEY_BUTTON_LIGHT_DETECTED.001
+	writing mesh:  KEY_BUTTON_DETECTED.001
+	writing mesh:  CHARGING_DETECTED.001
+	writing mesh:  DOOR_DETECTED.001
+	writing mesh:  DOOR_DETECTED.002
+	writing mesh:  WALL_osnova.043
+	writing mesh:  WALL_1.005
+	writing mesh:  WALL_1.010
+	writing mesh:  WALL 2
+	writing mesh:  WALL 3 SMALL
+	writing mesh:  WALL_1.018
+	writing mesh:  WALL_1.006
+	writing mesh:  WALL 5 MAYA
+	writing mesh:  MAYA 1
+	writing mesh:  MAYA 2
+	writing mesh:  MAYA 2.001
+	writing mesh:  WALL_1.265
+	writing mesh:  WALL_1.008
+	writing mesh:  DOOR_CASTLE.001
+	writing mesh:  DOOR_LEFT.001
+	writing mesh:  DOOR_RIGHT.001
+	writing mesh:  DOOR_CASTLE.002
+	writing mesh:  DOOR_LEFT.002
+	writing mesh:  DOOR_RIGHT.002
+	writing mesh:  ARKA
+	writing mesh:  SECTOR.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.1438 secs
