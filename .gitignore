@@ -1,9 +1,9 @@
 /node_modules
 /public/hot
 /public/storage
-public/maze_dist/resources/graphics/levels/level_1/map.babylon
-public/maze_dist/resources/graphics/textures/environment.env
-public/maze_dist/resources/graphics/characters/Girl.glb
+public/game/resources/graphics/levels/level_1/map.babylon
+public/game/resources/graphics/textures/environment.env
+public/game/resources/graphics/characters/player.glb
 /storage/*.key
 /vendor
 .env
