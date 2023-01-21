@@ -16,7 +16,7 @@ class UploadResourcesController extends Controller
 
     public function upload(Request $request): Redirector|Application|RedirectResponse
     {
-        $pathGraphics = 'cdn/resources/graphics/';
+        $pathGraphics = env('GAME_PATH_RESOURCES') . '/resources/graphics/';
 
         if (!$this->validateFields($request)) {
             return redirect(route('dashboard'))->with('error', 'Resources not selected');
