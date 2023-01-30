@@ -1,39 +1,16 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2>
-            {{ __('Upload') }}
-        </h2>
-    </x-slot>
-
-    <form method="POST" action="{{ route('uploadResources') }}" enctype="multipart/form-data">
-        @csrf
-        <div class="uk-grid">
-            <div>
-                <div uk-form-custom="target: true">
-                    <input type="file" aria-label="Custom controls" name="map">
-                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Select map" aria-label="Custom controls" disabled>
-                </div>
-            </div>
-
-            <div>
-                <div uk-form-custom="target: true">
-                    <input type="file" aria-label="Custom controls" name="character">
-                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Select character" aria-label="Custom controls" disabled>
-                </div>
-            </div>
-
-            <div>
-                <div uk-form-custom="target: true">
-                    <input type="file" aria-label="Custom controls" name="environment">
-                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Select environment" aria-label="Custom controls" disabled>
-                </div>
-            </div>
+    <div class="uk-grid uk-flex-between">
+        <div>
+            <a class="uk-button uk-button-primary" href="{{ route('folders.create') }}">
+                folders
+            </a>
         </div>
+    </div>
 
-        <div class="uk-margin-top">
-            <button class="uk-button uk-button-primary">
-                upload
-            </button>
-        </div>
-    </form>
+    <h4>Folders</h4>
+    <div>
+        <table>
+            <tr></tr>
+        </table>
+    </div>
 </x-app-layout>

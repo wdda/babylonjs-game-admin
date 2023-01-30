@@ -7,8 +7,10 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/css/uikit.min.css" />
+        @vite([
+            'resources/css/sass/app.sass',
+            'resources/js/app.js',
+        ])
     </head>
     <body>
         <div class="uk-container">
@@ -38,9 +40,5 @@
                 {{ $slot }}
             </main>
         </div>
-
-        <!-- UIkit JS -->
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit-icons.min.js"></script>
     </body>
 </html>
