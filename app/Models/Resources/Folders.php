@@ -2,6 +2,7 @@
 
 namespace App\Models\Resources;
 
+use JetBrains\PhpStorm\ArrayShape;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
@@ -19,13 +20,82 @@ class Folders {
         return true;
     }
 
-    public static function getFolders()
+    public static function getList(): array
     {
+        $path = base_path(config('game.resources_path'));
+        $dirs = scandir(base_path(config('game.resources_path')));
+        $result = [];
 
+        foreach ($dirs as $dir) {
+            if ($dir != '.' && $dir != '..') {
+                if (is_dir($path . '/' . $dir)) {
+                    $result[] = [
+                        'name' => $dir,
+                        'path' => $path
+                    ];
+                }
+            }
+        }
+
+        return $result;
     }
 
-    public static function createFolder($folderName)
+    #[ArrayShape(['folders' => "array"])] public static function getListData()
     {
+        return [
+          'folders' => self::getList()
+        ];
+    }
 
+    public static function create($folderName): array
+    {
+        $path = base_path(config('game.resources_path'));
+        $folderPath = $path . '/' . $folderName;
+        $error = null;
+        $status = null;
+
+        if (!is_dir($path)) {
+            $error = 'Error path, not exist: ' . $path;
+        }
+
+        if (is_dir($folderPath)) {
+            $error = 'Error folder, is exist ' . $folderPath;
+        }
+
+        if (!$error) {
+            $status = mkdir($folderPath, 0775);
+        }
+
+        return compact('status', 'error');
+    }
+
+    public static function delete($folderName): array
+    {
+        $path = base_path(config('game.resources_path'));
+        $folderPath = $path . '/' . $folderName;
+        $status = null;
+        $error = null;
+
+        if (!self::dirIsEmpty($folderPath)) {
+            $error = 'Directory is not empty';
+        }
+
+        if (!$error) {
+            $status = rmdir($folderPath);
+        }
+
+        return compact('status', 'error');
+    }
+
+    public static function dirIsEmpty($dir) {
+        $handle = opendir($dir);
+        while (false !== ($entry = readdir($handle))) {
+            if ($entry != "." && $entry != "..") {
+                closedir($handle);
+                return false;
+            }
+        }
+        closedir($handle);
+        return true;
     }
 }

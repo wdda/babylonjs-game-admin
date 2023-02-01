@@ -35,6 +35,12 @@
                 <div class="uk-alert-danger" uk-alert>{!! session()->get('error') !!}</div>
             @endif
 
+            @if ($errors->any())
+                @foreach ($errors->all() as $error)
+                    <div class="uk-alert-danger" uk-alert>{!! $error !!}</div>
+                @endforeach
+            @endif
+
             <!-- Page Content -->
             <main>
                 {{ $slot }}
