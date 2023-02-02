@@ -14,6 +14,7 @@
             <tr>
                 <th>name</th>
                 <th>folder</th>
+                <th>date</th>
                 <th>action</th>
             </tr>
         </thead>
@@ -22,6 +23,7 @@
                 <tr>
                     <td>{{ $file['name'] }}</td>
                     <td>{{ $file['folder'] }}</td>
+                    <td>{{ $file['date_time'] }}</td>
                     <td>
                         <div class="uk-grid uk-grid-small">
                             <div>
@@ -42,10 +44,6 @@
                                 </a>
                             </div>
                         </div>
-
-
-
-
                     </td>
                 </tr>
             @endforeach

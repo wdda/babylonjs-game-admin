@@ -35,11 +35,13 @@ class Files {
 
                     foreach ($files as $file) {
                         if ($file != '.' && $file != '..') {
-                            if (file_exists($pathDir . '/' . $file)) {
+                            $pathFile = $pathDir . '/' . $file;
+                            if (file_exists($pathFile)) {
                                 $result[] = [
                                     'name' => $file,
                                     'path' => $pathDir,
-                                    'folder' => $dir
+                                    'folder' => $dir,
+                                    'date_time' => date ("d.m.Y H:i:s", filemtime($pathFile))
                                 ];
                             }
                         }
