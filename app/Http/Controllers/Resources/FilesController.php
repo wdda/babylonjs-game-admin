@@ -23,8 +23,7 @@ class FilesController extends Controller
 
     public function create(): Factory|View|Application
     {
-        $folders = collect(Folders::getList())->pluck('name')->toArray();
-        $folders = array_combine($folders, $folders);
+        $folders = Files::getFoldersForSelect();
         return view('resources.files.create', compact('folders'));
     }
 
@@ -32,22 +31,62 @@ class FilesController extends Controller
      * @throws ValidationException
      * @throws Exception
      */
-    public function store(Request $request)
+    public function store(Request $request): Redirector|RedirectResponse|Application
     {
-        $this->validate($request, ['file' => 'required']);
+        $this->validate($request, ['file' => 'required', 'folder' => 'required']);
+        $create = Files::create($request->get('folder'), $request->file('file'), $request->get('file_name_in_game'));
 
+        if (!$create['error']) {
+            return redirect(route('files.index'))->with('message', 'File created');
+        }
+
+        return back()->with('error', 'File not created: ' . $create['error']);
 
     }
 
-
-    public function delete($folder): Redirector|RedirectResponse|Application
+    public function edit(Request $request, $file): Factory|View|Application
     {
-        $delete = Folders::delete($folder);
+        $folders = Files::getFoldersForSelect();
+        $folder = $request->get('folder');
 
-        if(!$delete['error']) {
-            return redirect(route('folders.index'))->with('message', 'Folder ' . $folder . ' deleted!');
+        return view('resources.files.edit', compact('folders', 'folder', 'file'));
+    }
+
+    /**
+     * @throws ValidationException
+     * @throws Exception
+     */
+    public function update(Request $request): Redirector|RedirectResponse|Application
+    {
+        $this->validate($request, [
+            'file' => 'required',
+            'folder' => 'required',
+            'file_name_in_game' => 'required'
+        ]);
+
+        $create = Files::create($request->get('folder'), $request->file('file'), $request->get('file_name_in_game'));
+
+        if (!$create['error']) {
+            return redirect(route('files.index'))->with('message', 'File created');
         }
 
-        return back()->with('error', 'Folder not deleted: ' . $delete['error']);
+        return back()->with('error', 'File not created: ' . $create['error']);
+
+    }
+
+    public function delete(Request $request, $file): Redirector|RedirectResponse|Application
+    {
+        $delete = Files::delete($request->get('folder'), $file);
+
+        if(!$delete['error']) {
+            return redirect(route('files.index'))->with('message', 'File ' . $file . ' deleted!');
+        }
+
+        return back()->with('error', 'File not deleted: ' . $delete['error']);
+    }
+
+    public function download()
+    {
+
     }
 }

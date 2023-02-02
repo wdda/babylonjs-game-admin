@@ -1,5 +1,5 @@
 <x-app-layout>
-    <x-title title="Folders" />
+    <x-title title="Files" />
 
     <div class="uk-flex uk-flex-right">
         <div>
@@ -13,6 +13,7 @@
         <thead>
             <tr>
                 <th>name</th>
+                <th>folder</th>
                 <th>action</th>
             </tr>
         </thead>
@@ -20,8 +21,31 @@
             @foreach($files as $file)
                 <tr>
                     <td>{{ $file['name'] }}</td>
+                    <td>{{ $file['folder'] }}</td>
                     <td>
-                        <a href="{{ route('files.delete', $file['name']) }}">delete</a>
+                        <div class="uk-grid uk-grid-small">
+                            <div>
+                                <a uk-icon="icon: download" href="{{ route('files.download', ['file' => $file['name'], 'folder' => $file['folder']]) }}">
+                                    download
+                                </a>
+                            </div>
+
+                            <div>
+                                <a uk-icon="icon: pencil" href="{{ route('files.edit', ['file' => $file['name'], 'folder' => $file['folder']]) }}">
+                                    edit
+                                </a>
+                            </div>
+
+                            <div>
+                                <a uk-icon="icon: trash" href="{{ route('files.delete', ['file' => $file['name'], 'folder' => $file['folder']]) }}">
+                                    delete
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
                     </td>
                 </tr>
             @endforeach

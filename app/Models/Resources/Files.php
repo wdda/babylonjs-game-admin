@@ -2,6 +2,7 @@
 
 namespace App\Models\Resources;
 
+use Illuminate\Http\UploadedFile;
 use JetBrains\PhpStorm\ArrayShape;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
@@ -29,10 +30,20 @@ class Files {
         foreach ($dirs as $dir) {
             if ($dir != '.' && $dir != '..') {
                 if (is_dir($path . '/' . $dir)) {
-                    $result[] = [
-                        'name' => $dir,
-                        'path' => $path
-                    ];
+                    $files = scandir($path . '/' . $dir);
+                    $pathDir = $path . '/' . $dir;
+
+                    foreach ($files as $file) {
+                        if ($file != '.' && $file != '..') {
+                            if (file_exists($pathDir . '/' . $file)) {
+                                $result[] = [
+                                    'name' => $file,
+                                    'path' => $pathDir,
+                                    'folder' => $dir
+                                ];
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -43,59 +54,54 @@ class Files {
     #[ArrayShape(['files' => "array"])] public static function getListData(): array
     {
         return [
-          'files' => []
+          'files' => self::getList()
         ];
     }
 
-    public static function create($folderName): array
+    public static function create($folderName, UploadedFile $file, $fileName): array
     {
         $path = base_path(config('game.resources_path'));
         $folderPath = $path . '/' . $folderName;
         $error = null;
         $status = null;
 
-        if (!is_dir($path)) {
-            $error = 'Error path, not exist: ' . $path;
-        }
-
-        if (is_dir($folderPath)) {
-            $error = 'Error folder, is exist ' . $folderPath;
+        if (!is_dir($folderPath)) {
+            $error = 'Error folder, not exist: ' . $path;
         }
 
         if (!$error) {
-            $status = mkdir($folderPath, 0775);
-        }
-
-        return compact('status', 'error');
-    }
-
-    public static function delete($folderName): array
-    {
-        $path = base_path(config('game.resources_path'));
-        $folderPath = $path . '/' . $folderName;
-        $status = null;
-        $error = null;
-
-        if (!self::dirIsEmpty($folderPath)) {
-            $error = 'Directory is not empty';
-        }
-
-        if (!$error) {
-            $status = rmdir($folderPath);
-        }
-
-        return compact('status', 'error');
-    }
-
-    public static function dirIsEmpty($dir) {
-        $handle = opendir($dir);
-        while (false !== ($entry = readdir($handle))) {
-            if ($entry != "." && $entry != "..") {
-                closedir($handle);
-                return false;
+            if (!$fileName) {
+                $fileName = $file->getClientOriginalName();
             }
+
+            $status =  $file->move($folderPath, $fileName);
         }
-        closedir($handle);
-        return true;
+
+        return compact('status', 'error');
+    }
+
+    public static function delete($folder, $file): array
+    {
+        $path = base_path(config('game.resources_path'));
+        $folderPath = $path . '/' . $folder;
+        $filePath = $folderPath . '/' . $file;
+        $status = null;
+        $error = null;
+
+        if (!file_exists($filePath)) {
+            $error = 'File is not exist';
+        }
+
+        if (!$error) {
+            $status = unlink($filePath);
+        }
+
+        return compact('status', 'error');
+    }
+
+    public static function getFoldersForSelect()
+    {
+        $folders = collect(Folders::getList())->pluck('name')->toArray();
+        return array_combine($folders, $folders);
     }
 }
