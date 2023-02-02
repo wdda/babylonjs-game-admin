@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Resources;
 
 use App\Http\Controllers\Controller;
+use App\Models\Resources\Files;
 use App\Models\Resources\Folders;
 use Exception;
 use Illuminate\Http\RedirectResponse;
@@ -13,16 +14,18 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Routing\Redirector;
 use Illuminate\Validation\ValidationException;
 
-class FoldersController extends Controller
+class FilesController extends Controller
 {
     public function index(): Factory|View|Application
     {
-        return view('resources.folders.index', Folders::getListData());
+        return view('resources.files.index', Files::getListData());
     }
 
     public function create(): Factory|View|Application
     {
-        return view('resources.folders.create');
+        $folders = collect(Folders::getList())->pluck('name')->toArray();
+        $folders = array_combine($folders, $folders);
+        return view('resources.files.create', compact('folders'));
     }
 
     /**
@@ -31,16 +34,9 @@ class FoldersController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, ['name' => 'required|regex:/^[a-z0-9_]*$/']);
-        $folderName = $request->get('name');
+        $this->validate($request, ['file' => 'required']);
 
-        $create = Folders::create($folderName);
 
-        if ($create['status']) {
-            return redirect(route('folders.index'))->with('message', 'Folder ' . $folderName . ' created!');
-        }
-
-        return back()->with('error', $create['error']);
     }
 
 

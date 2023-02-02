@@ -1,5 +1,9 @@
 @csrf
 
-{!! formInput('name')->label('Name *')->value(old('name'))->placeholder('example_name_folder')->render() !!}
+<div class="uk-margin-large-bottom">
+{!! formSelect('folder')->options($folders)->label('Folder *')->value(old('folder'))->render() !!}
 
-{!! formButton('create')->render() !!}
+{!! formFile('file')->label('File *')->placeholder('select file')->value(old('file'))->render() !!}
+</div>
+
+{!! formButton('upload')->render() !!}

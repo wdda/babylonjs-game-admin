@@ -3,7 +3,7 @@
 
     <div class="uk-flex uk-flex-right">
         <div>
-            <a class="uk-button uk-button-primary" href="{{ route('files.create') }}">
+            <a class="uk-button uk-button-primary" href="{{ route('folders.create') }}">
                 + create
             </a>
         </div>
@@ -17,11 +17,11 @@
             </tr>
         </thead>
         <tbody>
-            @foreach($files as $file)
+            @foreach($folders as $folder)
                 <tr>
-                    <td>{{ $file['name'] }}</td>
+                    <td>{{ $folder['name'] }}</td>
                     <td>
-                        <a href="{{ route('files.delete', $file['name']) }}">delete</a>
+                        <a href="{{ route('folders.delete', $folder['name']) }}">delete</a>
                     </td>
                 </tr>
             @endforeach
