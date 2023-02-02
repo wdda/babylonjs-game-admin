@@ -21,7 +21,19 @@
                 <tr>
                     <td>{{ $folder['name'] }}</td>
                     <td>
-                        <a href="{{ route('folders.delete', $folder['name']) }}">delete</a>
+                        <div class="uk-grid uk-grid-small">
+                            <div>
+                                <a uk-icon="icon: pencil" href="{{ route('folders.edit', $folder['name']) }}">
+                                    edit
+                                </a>
+                            </div>
+
+                            <div>
+                                <a uk-icon="icon: trash" href="{{ route('folders.delete', $folder['name']) }}">
+                                    delete
+                                </a>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             @endforeach
