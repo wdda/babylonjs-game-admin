@@ -29,7 +29,7 @@ class FoldersController extends Controller
      * @throws ValidationException
      * @throws Exception
      */
-    public function store(Request $request)
+    public function store(Request $request): Redirector|RedirectResponse|Application
     {
         $this->validate($request, ['name' => 'required|regex:/^[a-z0-9_]*$/']);
         $folderName = $request->get('name');
@@ -38,6 +38,29 @@ class FoldersController extends Controller
 
         if ($create['status']) {
             return redirect(route('folders.index'))->with('message', 'Folder ' . $folderName . ' created!');
+        }
+
+        return back()->with('error', $create['error']);
+    }
+
+    public function edit($folderName): Factory|View|Application
+    {
+        return view('resources.folders.edit', compact('folderName'));
+    }
+
+    /**
+     * @throws ValidationException
+     * @throws Exception
+     */
+    public function update(Request $request, $folder): Redirector|RedirectResponse|Application
+    {
+        $this->validate($request, ['name' => 'required|regex:/^[a-z0-9_]*$/']);
+        $name = $request->get('name');
+
+        $create = Folders::edit($folder, $name);
+
+        if ($create['status']) {
+            return redirect(route('folders.index'))->with('message', 'Folder ' . $name . ' saved!');
         }
 
         return back()->with('error', $create['error']);

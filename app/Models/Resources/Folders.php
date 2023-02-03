@@ -69,6 +69,28 @@ class Folders {
         return compact('status', 'error');
     }
 
+    public static function edit($oldName, $newName): array
+    {
+        $path = base_path(config('game.resources_path'));
+        $folderPath = $path . '/' . $oldName;
+        $error = null;
+        $status = null;
+
+        if (!is_dir($path)) {
+            $error = 'Error path, is not exist: ' . $path;
+        }
+
+        if (!is_dir($folderPath)) {
+            $error = 'Error folder, is not exist ' . $folderPath;
+        }
+
+        if (!$error) {
+            $status = rename($folderPath, $path . '/' . $newName);
+        }
+
+        return compact('status', 'error');
+    }
+
     public static function delete($folderName): array
     {
         $path = base_path(config('game.resources_path'));

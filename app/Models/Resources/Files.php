@@ -3,11 +3,13 @@
 namespace App\Models\Resources;
 
 use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Collection;
 use JetBrains\PhpStorm\ArrayShape;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
-class Files {
+class Files
+{
     public static function install(): bool
     {
         $filesystem = new Filesystem();
@@ -21,7 +23,7 @@ class Files {
         return true;
     }
 
-    public static function getList(): array
+    public static function getList(Collection $params): array
     {
         $path = base_path(config('game.resources_path'));
         $dirs = scandir(base_path(config('game.resources_path')));
@@ -29,19 +31,29 @@ class Files {
 
         foreach ($dirs as $dir) {
             if ($dir != '.' && $dir != '..') {
+                if ($params->get('folder') && $params->get('folder') !== $dir) {
+                    continue;
+                }
+
                 if (is_dir($path . '/' . $dir)) {
                     $files = scandir($path . '/' . $dir);
                     $pathDir = $path . '/' . $dir;
 
                     foreach ($files as $file) {
                         if ($file != '.' && $file != '..') {
+                            if ($params->has('name')) {
+                                if (!str_contains($file, $params->get('name'))){
+                                    continue;
+                                }
+                            }
+
                             $pathFile = $pathDir . '/' . $file;
                             if (file_exists($pathFile)) {
                                 $result[] = [
                                     'name' => $file,
                                     'path' => $pathDir,
                                     'folder' => $dir,
-                                    'date_time' => date ("d.m.Y H:i:s", filemtime($pathFile))
+                                    'date_time' => date("d.m.Y H:i:s", filemtime($pathFile))
                                 ];
                             }
                         }
@@ -53,10 +65,13 @@ class Files {
         return $result;
     }
 
-    #[ArrayShape(['files' => "array"])] public static function getListData(): array
+    public static function getListData($params): array
     {
+        $params = collect($params);
+
         return [
-          'files' => self::getList()
+            'files' => self::getList($params),
+            'folders' => self::getFoldersForSelect()
         ];
     }
 
@@ -76,7 +91,7 @@ class Files {
                 $fileName = $file->getClientOriginalName();
             }
 
-            $status =  $file->move($folderPath, $fileName);
+            $status = $file->move($folderPath, $fileName);
         }
 
         return compact('status', 'error');
@@ -84,9 +99,7 @@ class Files {
 
     public static function delete($folder, $file): array
     {
-        $path = base_path(config('game.resources_path'));
-        $folderPath = $path . '/' . $folder;
-        $filePath = $folderPath . '/' . $file;
+        $filePath = self::getFilePath($folder, $file);
         $status = null;
         $error = null;
 
@@ -101,9 +114,16 @@ class Files {
         return compact('status', 'error');
     }
 
-    public static function getFoldersForSelect()
+    public static function getFoldersForSelect(): array
     {
         $folders = collect(Folders::getList())->pluck('name')->toArray();
         return array_combine($folders, $folders);
+    }
+
+    public static function getFilePath($folder, $file): string
+    {
+        $path = base_path(config('game.resources_path'));
+        $folderPath = $path . '/' . $folder;
+        return $folderPath . '/' . $file;
     }
 }

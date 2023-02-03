@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Resources;
 
 use App\Http\Controllers\Controller;
 use App\Models\Resources\Files;
-use App\Models\Resources\Folders;
 use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -13,12 +12,13 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Routing\Redirector;
 use Illuminate\Validation\ValidationException;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class FilesController extends Controller
 {
-    public function index(): Factory|View|Application
+    public function index(Request $request): Factory|View|Application
     {
-        return view('resources.files.index', Files::getListData());
+        return view('resources.files.index', Files::getListData($request->all()));
     }
 
     public function create(): Factory|View|Application
@@ -85,8 +85,11 @@ class FilesController extends Controller
         return back()->with('error', 'File not deleted: ' . $delete['error']);
     }
 
-    public function download()
+    public function download(Request $request, $file): BinaryFileResponse
     {
+        $folder = $request->get('folder');
+        $filePath = Files::getFilePath($folder, $file);
 
+        return response()->download($filePath);
     }
 }

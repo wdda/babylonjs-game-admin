@@ -29,7 +29,7 @@
                             </div>
 
                             <div>
-                                <a uk-icon="icon: trash" href="{{ route('folders.delete', $folder['name']) }}">
+                                <a class="confirm" uk-icon="icon: trash" href="{{ route('folders.delete', $folder['name']) }}">
                                     delete
                                 </a>
                             </div>

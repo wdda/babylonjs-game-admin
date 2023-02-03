@@ -18,3 +18,8 @@ exit
 php artisan route:list
 php artisan install
 exit
+ls game_resources/resources/graphics/
+php artisan make:migration create_table_files
+php artisan roite:list
+php artisan route:list
+exit
