@@ -14,8 +14,8 @@ export default defineConfig({
         vitePluginRequire(),
         laravel({
             input: [
-                'resources/auth/css/app.css',
-                'resources/auth/js/app.js',
+                'resources/css/auth/app.css',
+                'resources/js/auth/app.js',
                 'resources/js/app.js',
                 'resources/css/sass/app.sass',
             ],
