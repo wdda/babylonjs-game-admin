@@ -16,7 +16,7 @@ class UploadResourcesController extends Controller
 
     public function upload(Request $request): Redirector|Application|RedirectResponse
     {
-        $pathGraphics = 'maze_dist/resources/graphics/';
+        $pathGraphics = env('GAME_PATH_RESOURCES') . '/resources/graphics/';
 
         if (!$this->validateFields($request)) {
             return redirect(route('dashboard'))->with('error', 'Resources not selected');
@@ -38,7 +38,7 @@ class UploadResourcesController extends Controller
         return true;
     }
 
-    public function uploadFile($request, $name, $path, $fileName)
+    public function uploadFile(Request $request, $name, $path, $fileName)
     {
         if ($request->file($name)) {
             $request->file($name)
